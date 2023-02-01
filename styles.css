@@ -1,5 +1,4 @@
-
-body{
+body {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
@@ -7,52 +6,184 @@ body{
 }
 
 
-.header{
+.header {
     background-image: url(/images/banner/banner1.png);
     background-position: left;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     padding-top: 100px;
     padding-bottom: 500px;
     margin-bottom: 0px;
-    
-    
-    
+
+
+
 }
-.header-content{
-    text-align:right;
+
+.header-content {
+    text-align: right;
     margin-left: 500px;
     margin-right: 100px;
-    padding-left: 500px;
+    padding-left: 600px;
     padding-top: 100px;
-    
-    
- 
-    
+
+
+
+
 }
-#header-desc{
+
+#header-desc {
     font-size: 28px;
-    
+
 
 
 }
 
-#header-title{
+#header-title {
     font-size: 60px;
-    font-weight:600;
+    font-weight: 600;
 }
-#button-h{
-    
+#button-h {
+
     background-color: #F15B22;
     border: none;
     padding: 15px 20px;
-    border-radius:5px;
+    border-radius: 5px;
     color: aliceblue;
-   
+
 }
-footer{
+
+.main-content {
+    text-align: right;
+    margin-left: 500px;
+    margin-right: 100px;
+    padding-left: 500px;
+    padding-top: 250px;
+
+
+
+
+}
+
+#main-desc {
+    font-size: 25px;
+    padding-left: 200px;
+    text-align: left;
+
+
+
+}
+
+#main-title {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    padding-left: 200px;
+}
+
+
+
+footer {
     margin: 0px 0px 0px 0px;
     padding-bottom: 50px;
     color: aliceblue;
-    background-color:black;
+    background-color: black;
+}
+
+.reflection {
+    background-image: url(/images/person.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 100px;
+    padding-bottom: 500px;
+    margin-bottom: 0px;
+
+
+
+}
+
+
+.check-content{
+    text-align: left;
+    padding-left: 220px;
+}
+#check{
+    color: rgb(121, 184, 25);
+    padding-top: 10px;
+}
+.plans{
+    margin-top: 100px;
+}
+#plans-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+.plans{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+.flex-container{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+
+}
+#card{
+    text-align: center;
+    margin: 0 80px;
+
+}
+#card-title{
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+#card-desc{
+    color: grey;
+}
+.footer-container{
+    display: flex;
+    color: azure;
+    padding:0px 50px ;
+     margin-top: 80px;
+   
+}
+#email{
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+#button-f{
+
+    background-color: #FFFFFF;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #F15B22;
+    margin-top: 10px;
+
+}
+.footer-icon-container{
+    display: flex;
+   
+    
+}
+#footer-icon{
+    padding-left: 10px;
+}
+.footer-left{
+    width:400px;
+    padding-right: 50px;
+    padding-left: 200px;
+
+
+}
+.footer-right{
+    margin-top: 30px;
+   padding-left: 600px;
+  
+
 }
