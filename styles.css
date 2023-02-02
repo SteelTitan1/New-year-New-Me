@@ -14,9 +14,6 @@ body {
     padding-top: 100px;
     padding-bottom: 500px;
     margin-bottom: 0px;
-
-
-
 }
 
 .header-content {
@@ -51,6 +48,17 @@ body {
     color: aliceblue;
 
 }
+#button-m {
+
+    color: #F15B22;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin-left: 30px;
+    font-weight: 600;
+
+}
 
 .main-content {
     text-align: right;
@@ -59,18 +67,12 @@ body {
     padding-left: 500px;
     padding-top: 250px;
 
-
-
-
 }
 
 #main-desc {
     font-size: 25px;
     padding-left: 200px;
     text-align: left;
-
-
-
 }
 
 #main-title {
@@ -80,8 +82,6 @@ body {
     padding-left: 200px;
 }
 
-
-
 footer {
     margin: 0px 0px 0px 0px;
     padding-bottom: 50px;
@@ -90,40 +90,38 @@ footer {
 }
 
 .reflection {
-    background-image: url(/images/person.png);
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-top: 100px;
-    padding-bottom: 500px;
-    margin-bottom: 0px;
-
-
-
+    margin-right: 100px;
+    margin-left: 200px;
+    margin-top: 100px;
+ 
 }
-
 
 .check-content{
     text-align: left;
     padding-left: 220px;
 }
+
 #check{
     color: rgb(121, 184, 25);
     padding-top: 10px;
 }
+
 .plans{
     margin-top: 100px;
 }
+
 #plans-title{
     text-align: center;
     font-size: 35px;
     font-weight: 600;
 }
+
 .plans{
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 200px;
 }
+
 .flex-container{
     display: flex;
     margin-top: 100px;
@@ -186,4 +184,37 @@ footer {
    padding-left: 600px;
   
 
+}
+.abc-container{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.call-now{
+    /* background-image: linear-gradient(135deg, orange 60%, cyan),url(/images/watch.png);
+    opacity: 0.0; */
+    background-image: 
+     linear-gradient(to right, rgba(247, 84, 13, 0.997), rgba(240, 241, 233, 0)),
+    url(/images/watch.png);
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:fit-content;
+    margin-top: 100px;
+    
+    height: 250px;
+    margin-left: 300px;
+    margin-right: 400px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    
+
+
+}
+#call-now-text{
+    font-size: 36px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-left: 30px;
+    margin-right: 700px;
 }
