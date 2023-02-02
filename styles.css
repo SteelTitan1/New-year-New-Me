@@ -7,7 +7,7 @@ body {
 
 
 .header {
-    background-image: url(/images/banner/banner1.png);
+    background-image: url(images/banner/banner1.png);
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,7 +195,7 @@ footer {
     opacity: 0.0; */
     background-image: 
      linear-gradient(to right, rgba(247, 84, 13, 0.997), rgba(240, 241, 233, 0)),
-    url(/images/watch.png);
+    url(images/watch.png);
     
     background-repeat: no-repeat;
     background-size: contain;
